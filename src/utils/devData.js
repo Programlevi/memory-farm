@@ -1,4 +1,6 @@
-export default [
+import shuffle from './shuffle';
+
+const devData = [
   {
     id: 'avo1',
     image: '🥑',
@@ -144,3 +146,5 @@ export default [
     isMatched: false
   }
 ];
+
+export default shuffle(devData);

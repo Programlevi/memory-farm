@@ -1,12 +1,11 @@
 import _ from 'lodash';
-import shuffle from '../utils/shuffle';
 
 export default (state = [], action) => {
   let card1,
     card2 = null;
   switch (action.type) {
     case 'SET_DATA':
-      return _.mapKeys(shuffle(action.payload), 'id');
+      return _.mapKeys(action.payload, 'id');
     case 'OPEN':
       const card = { ...state[action.payload] };
       card.isOpen = true;

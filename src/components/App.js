@@ -1,12 +1,16 @@
 import React from 'react';
-// import CardList from './CardList';
+// eslint-disable-next-line
+import { MemoryRouter, Route } from 'react-router-dom';
 import Game from './routes/Game';
+import Menu from './routes/Menu';
 
 const App = props => {
   return (
     <div className="app">
-      {/* <CardList/> */}
-      <Game />
+      <MemoryRouter>
+        <Route path="/" exact component={Menu} />
+        <Route path="/game" exact component={Game} />
+      </MemoryRouter>
     </div>
   );
 };

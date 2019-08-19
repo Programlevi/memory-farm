@@ -6,9 +6,17 @@ import CardList from '../CardList';
 import Timer from '../Timer';
 
 const Game = props => {
-  const { data, setCardData, close, match } = props;
+  const { data, setCardData, close, match, history } = props;
   useEffect(() => {
-    setCardData(devData);
+    const dataOpen = devData.map(element => {
+      return { ...element, isOpen: true };
+    });
+
+    setCardData(dataOpen);
+
+    setTimeout(() => {
+      setCardData(devData);
+    }, 2000);
     // eslint-disable-next-line
   }, []);
 
@@ -30,7 +38,7 @@ const Game = props => {
 
   return (
     <>
-      <Timer />
+      <Timer history={history} />
       <CardList />
     </>
   );

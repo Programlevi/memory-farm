@@ -26,7 +26,7 @@ export const match = ids => {
   };
 };
 
-export const decrementTimer = sec => {
+export const decrementTimer = () => {
   return {
     type: 'DECREMENT_TIMER'
   };
