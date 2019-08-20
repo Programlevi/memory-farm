@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "096cc0daae8cd8248f9260ea11d4503b",
+    "revision": "5d8e2bc84c65d1a61d7c2df0e4340353",
     "url": "/memory-farm/index.html"
   },
   {
-    "revision": "0833bfb5d2a3760cae9d",
-    "url": "/memory-farm/static/css/main.e17ef71c.chunk.css"
+    "revision": "082a34b0ee163516b73f",
+    "url": "/memory-farm/static/css/main.b5883a57.chunk.css"
   },
   {
     "revision": "bd0784e2b94eb110a17b",
     "url": "/memory-farm/static/js/2.603a05a1.chunk.js"
   },
   {
-    "revision": "0833bfb5d2a3760cae9d",
+    "revision": "082a34b0ee163516b73f",
     "url": "/memory-farm/static/js/main.03dd03ca.chunk.js"
   },
   {

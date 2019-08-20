@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/memory-farm/static/css/main.e17ef71c.chunk.css",
+    "main.css": "/memory-farm/static/css/main.b5883a57.chunk.css",
     "main.js": "/memory-farm/static/js/main.03dd03ca.chunk.js",
     "main.js.map": "/memory-farm/static/js/main.03dd03ca.chunk.js.map",
     "runtime~main.js": "/memory-farm/static/js/runtime~main.9a917e5e.js",
@@ -8,8 +8,8 @@
     "static/js/2.603a05a1.chunk.js": "/memory-farm/static/js/2.603a05a1.chunk.js",
     "static/js/2.603a05a1.chunk.js.map": "/memory-farm/static/js/2.603a05a1.chunk.js.map",
     "index.html": "/memory-farm/index.html",
-    "precache-manifest.a37854a7d43461fa4360bf8ffe34bf17.js": "/memory-farm/precache-manifest.a37854a7d43461fa4360bf8ffe34bf17.js",
+    "precache-manifest.d925032c8213ad938784536021c71189.js": "/memory-farm/precache-manifest.d925032c8213ad938784536021c71189.js",
     "service-worker.js": "/memory-farm/service-worker.js",
-    "static/css/main.e17ef71c.chunk.css.map": "/memory-farm/static/css/main.e17ef71c.chunk.css.map"
+    "static/css/main.b5883a57.chunk.css.map": "/memory-farm/static/css/main.b5883a57.chunk.css.map"
   }
 }
