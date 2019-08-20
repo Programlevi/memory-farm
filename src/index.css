@@ -17,12 +17,12 @@ html {
   height: 100vh;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  background-color: rgb(70, 70, 70);
+  background-color: rgb(77, 77, 77);
 }
 
+.header,
+.back-arrow,
 .timer {
-  position: fixed;
-  display: inline-block;
   font-size: 4rem;
   background-image: linear-gradient(
     to right bottom,
@@ -31,9 +31,57 @@ html {
   );
   background-clip: text;
   color: transparent;
+}
+
+.back-arrow,
+.timer {
+  display: inline-block;
+  position: fixed;
+  transform: translateX(-50%);
+}
+
+.back-arrow {
+  top: 0;
+  left: 8.5rem;
+}
+
+.timer {
   top: 0;
   right: 5rem;
-  transform: translateX(-50%);
+}
+
+.text-box {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.header {
+  display: block;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.btn:link {
+  font-size: 3rem;
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  color: white;
+  border-bottom: 2px solid rgb(0, 199, 0);
+  padding: 1rem;
+  transition: all 0.1s ease-in;
+  border-radius: 1px;
+}
+
+.btn:hover {
+  background-color: rgb(0, 199, 0);
+  transform: translateY(-0.5rem);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .timer--red {

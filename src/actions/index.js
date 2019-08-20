@@ -31,3 +31,10 @@ export const decrementTimer = () => {
     type: 'DECREMENT_TIMER'
   };
 };
+
+export const setTimer = time => {
+  return {
+    type: 'SET_TIMER',
+    payload: time
+  };
+};

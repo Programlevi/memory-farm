@@ -13,13 +13,15 @@ const Timer = props => {
         decrementTimer();
       }, 1000);
     }, 2000);
+    return () => {
+      clearInterval(interval);
+    };
 
     // eslint-disable-next-line
   }, []);
 
   useEffect(() => {
     if (timer === 0) {
-      clearInterval(interval);
       history.push('/');
     }
   });
